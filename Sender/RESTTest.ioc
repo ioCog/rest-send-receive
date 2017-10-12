@@ -1,0 +1,15 @@
+////ioCog Project File
+////REST Test
+////ioCog Dev
+////4-Oct-2017
+
+
+Project "REST Interface Test";
+
+Verbosity 0;
+
+
+Load RESTTest.iocc;
+Load RESTTest.iocb;
+Load RESTTest.iocr;
+Load RESTTest.iocd;

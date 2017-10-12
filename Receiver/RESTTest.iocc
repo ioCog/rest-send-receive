@@ -1,0 +1,12 @@
+////ioCog Class File
+////REST Test
+////ioCog Dev
+////4 Oct-2017
+
+
+Class TestItem(
+	Item1, 
+	Item2, 
+	Item3, 
+	Item4
+);

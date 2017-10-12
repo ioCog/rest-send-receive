@@ -1,0 +1,13 @@
+////ioCog Binding File
+////REST Test
+////ioCog Dev
+////4 Oct-2017
+
+RESTClient SendItem ("http://localhost:54132", "/Data/TestItem", POST,
+	Request JSON (
+		RequestBinding TestItem ("",
+			Mapping (Item1 Item1, Item2 Item2, Item3 Item3, Item4 Item4)
+		)
+	)
+);
+

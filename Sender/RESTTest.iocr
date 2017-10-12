@@ -1,0 +1,13 @@
+////ioCog Rules File
+////REST Test
+////ioCog Dev
+////4-Aug-2017
+
+Rule SendItem(
+	Comment "Send the Item";
+	TestItem;
+-->
+	ExecREST SendItem();
+	Remove 1;
+);
+
